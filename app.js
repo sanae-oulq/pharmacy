@@ -9,7 +9,7 @@ const app = express();
 //   origin: 'https://pharmacy-frontend-nu.vercel.app/'
 // };
 
-app.use(cors(corsOptions)); 
+const cors = require('cors'); 
 
 const cityController = require('./controllers/CityController');
 const zoneController = require('./controllers/ZoneController');
