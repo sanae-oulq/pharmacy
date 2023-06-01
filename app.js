@@ -5,9 +5,9 @@ const cors = require('cors');
 
 const app = express();
 
-const corsOptions = {
-  origin: 'https://pharmacy-frontend-nu.vercel.app/'
-};
+// const corsOptions = {
+//   origin: 'https://pharmacy-frontend-nu.vercel.app/'
+// };
 
 app.use(cors(corsOptions)); 
 
